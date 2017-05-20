@@ -14,7 +14,7 @@ public class Main {
         System.out.println("\n===Clan Game Drot===");
         System.out.println("1. Daftar Peringkat Clan");
         System.out.println("2. Pertarungan Antar Clan");
-        System.out.print("Masukkan menu pilihan : ");
+        System.out.print("Masukkan menu pilihan: ");
         menu = input.nextInt();
         
         switch (menu){
