@@ -38,9 +38,16 @@ public class Main {
                     break;
                     }
                 }
+            case 2 :
+                System.out.println("\n===Pertarungan sedang berlangsung===");
+                Scanner input2 = new Scanner(System.in);
+                char dmenu;
                 
-                
-                
+                System.out.print("Balik ke menu awal input y/n : ");
+                dmenu = input1.next().trim().charAt(0);
+                if (dmenu == 'y'){
+                    break;
+                    }
         }
     }
     }
