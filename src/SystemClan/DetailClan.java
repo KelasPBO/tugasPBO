@@ -6,7 +6,7 @@ public class DetailClan {
     ArrayList<Clan> dc;
     public DetailClan(){
         dc = new ArrayList<>(3);
-        dc.add(new Clan(1, "Spuyer Mampet", 10, 350, 10));
+        dc.add(new Clan(1, "Spuyer Mampet", 12, 350, 10));
         dc.add(new Clan(2, "Busi Mati", 9, 200, 10));
         dc.add(new Clan(3, "Platina", 8, 150, 10));
         
