@@ -27,7 +27,7 @@ public class Main {
                 
                 while(cmenu!=3){
                     System.out.println("\n===Menu Pilihan===");
-                    System.out.print("Lihat detail clan : ");
+                    System.out.print("Lihat detail clan, Masukkan no peringkat : ");
                     cmenu = input1.nextInt();
                     
                     sc.showdetailclan(cmenu);
