@@ -44,7 +44,7 @@ public class Main {
                 char dmenu;
                 
                 System.out.print("Balik ke menu awal input y/n : ");
-                dmenu = input1.next().trim().charAt(0);
+                dmenu = input2.next().trim().charAt(0);
                 if (dmenu == 'y'){
                     break;
                     }
